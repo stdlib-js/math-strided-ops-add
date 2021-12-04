@@ -41,11 +41,13 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
+    "@stdlib/complex-base-wrap-function": "^0.0.x",
     "@stdlib/complex-float32": "^0.0.x",
     "@stdlib/complex-float64": "^0.0.x",
     "@stdlib/math-base-ops-add": "^0.0.x",
     "@stdlib/math-base-ops-addf": "^0.0.x",
     "@stdlib/math-base-ops-cadd": "^0.0.x",
+    "@stdlib/math-base-ops-caddf": "^0.0.x",
     "@stdlib/strided-base-binary": "^0.0.x",
     "@stdlib/strided-base-binary-dtype-signatures": "^0.0.x",
     "@stdlib/strided-base-dtype-resolve-enum": "^0.0.x",
