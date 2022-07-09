@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-strided-ops-add",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Element-wise addition of two strided arrays.",
   "license": "Apache-2.0",
   "author": {
