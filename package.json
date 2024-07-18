@@ -41,10 +41,10 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
+    "@stdlib/complex-float32-base-add": "github:stdlib-js/complex-float32-base-add#main",
+    "@stdlib/complex-float64-base-add": "github:stdlib-js/complex-float64-base-add#main",
     "@stdlib/math-base-ops-add": "^0.2.1",
     "@stdlib/math-base-ops-addf": "^0.2.1",
-    "@stdlib/math-base-ops-cadd": "^0.2.1",
-    "@stdlib/math-base-ops-caddf": "^0.2.1",
     "@stdlib/strided-base-binary": "^0.2.1",
     "@stdlib/strided-base-binary-dtype-signatures": "^0.2.1",
     "@stdlib/strided-base-binary-signature-callbacks": "^0.2.1",
