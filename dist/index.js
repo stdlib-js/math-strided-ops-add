@@ -1,7 +1,7 @@
 "use strict";var e=function(a,r){return function(){return r||a((r={exports:{}}).exports,r),r.exports}};var u=e(function(cr,H){H.exports={nargs:10,nin:2,nout:1}});var j=e(function(pr,I){I.exports=[[12,13,10,11,15,4,6,1,5,7,2],[12,13,10,11,15,4,6,1,5,7,2],[12,13,10,11,15,4,6,1,5,7,2]]});var i=e(function(yr,h){
 var J=require('@stdlib/strided-base-binary-dtype-signatures/dist'),l=j(),K=J(l[0],l[1],l[2],{enums:!0});h.exports=K
 });var f=e(function(lr,R){
-var L=require('@stdlib/math-base-ops-add/dist'),M=require('@stdlib/complex-float64-base-add/dist'),N=require('@stdlib/complex-float32-base-add/dist'),Q=require('@stdlib/strided-base-binary-signature-callbacks/dist'),S=i(),T={default:L,complex64:N,complex128:M},U=Q(T,S);R.exports=U
+var L=require('@stdlib/number-float64-base-add/dist'),M=require('@stdlib/complex-float64-base-add/dist'),N=require('@stdlib/complex-float32-base-add/dist'),Q=require('@stdlib/strided-base-binary-signature-callbacks/dist'),S=i(),T={default:L,complex64:N,complex128:M},U=Q(T,S);R.exports=U
 });var k=e(function(fr,_){
 var V=require('@stdlib/strided-dispatch/dist'),W=require('@stdlib/strided-base-binary/dist'),m=require('@stdlib/strided-base-dtype-resolve-enum/dist'),X=i(),x=u(),Y=f(),Z=V(W,X,Y,x.nargs,x.nin,x.nout);function $(a,r,n,v,q,d,o,c,p,y){return Z(a,m(r),n,v,m(q),d,o,m(c),p,y)}_.exports=$
 });var O=e(function(mr,E){
